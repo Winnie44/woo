@@ -1,0 +1,258 @@
+# Copyright (C) 2021 Inspire Labs
+# This file is distributed under the same license as the WooCommerce PayPo Payment Gateway plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce PayPo Payment Gateway 2.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce-"
+"gateway-paypo\n"
+"Language-Team: Polski\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-02-12T10:00:27+00:00\n"
+"PO-Revision-Date: 2021-08-20 07:29+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: woocommerce-gateway-paypo\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 "
+"|| n%100>14) ? 1 : 2);\n"
+"Language: pl_PL"
+
+#: inc/PayPo_Gateway.php:126
+msgid "Add short description for Your customers"
+msgstr "Dodaj krótki opis metody płatności dla swoich klientów"
+
+#: inc/PayPo_Connect.php:44
+msgid "Asset identification conflict. Please contact the store administrator"
+msgstr ""
+"Konflikt dotyczący identyfikacji zasobów. Skontaktuj się z administratorem "
+"sklepu"
+
+#: inc/PayPo_Connect.php:41
+msgid "Authentication error. Please contact the store administrator"
+msgstr "Błąd uwierzytelnienia. Proszę skontaktować się z administratorem"
+
+#: inc/PayPo_Gateway.php:165
+msgid "Automatically"
+msgstr "Automatycznie"
+
+#: inc/PayPo_Gateway.php:160
+msgid "Automatically - send confirmation immediately"
+msgstr ""
+"Automatycznie - zatwierdzenie transakcji odbywa się po jej zaakceptowaniu"
+
+#: inc/PayPo_Gateway.php:127
+msgid "Buy now, pay in a month!"
+msgstr "Kup teraz, zapłać za 30 dni"
+
+#: inc/PayPo_Gateway.php:195
+msgid "Custom banner"
+msgstr "Własny baner"
+
+#: inc/PayPo_Gateway.php:124
+msgid "Description"
+msgstr "Opis"
+
+#: inc/PayPo_Gateway.php:113
+msgid "Enable PayPo Payment Gateway"
+msgstr "Włącz płatności PayPo"
+
+#: inc/PayPo_Gateway.php:144
+msgid "Enable Sandbox Mode"
+msgstr "Włącz tryb testowy"
+
+#: inc/PayPo_Gateway.php:112
+msgid "Enable/Disable"
+msgstr "Włącz/wyłącz"
+
+#: inc/PayPo_Gateway.php:223
+msgid "Error"
+msgstr "Błąd"
+
+#. Author URI of the plugin
+msgid "https://inspirelabs.pl"
+msgstr ""
+
+#: inc/PayPo_Connect.php:40
+msgid "Incorrect data. Please contact the store administrator"
+msgstr "Niewłaściwe dane. Proszę skontaktować się z administratorem"
+
+#. Author of the plugin
+msgid "Inspire Labs"
+msgstr ""
+
+#. Description of the plugin
+msgid "Integracja z systemem płatności PayPo"
+msgstr "Integracja z systemem płatności PayPo"
+
+#: inc/PayPo_Gateway.php:166
+msgid "Manually"
+msgstr "Manualnie"
+
+#: inc/PayPo_Gateway.php:161
+msgid "Manually - send confirmation by changing order status to Complete"
+msgstr "Manualnie - poprzez zmianę statusu w Twoim sklepie na Zrealizowane"
+
+#: inc/PayPo_Gateway.php:182
+msgid "Maximum order amount for payment"
+msgstr "Maksymalna wartość zamówienia"
+
+#: inc/PayPo_Gateway.php:132
+msgid "Merchant ID"
+msgstr "Identyfikator"
+
+#: inc/PayPo_Gateway.php:137
+msgid "Merchant Secret"
+msgstr "Secret"
+
+#: inc/PayPo_Gateway.php:172
+msgid "Minimum order amount for payment"
+msgstr "Minimalna wartość zamówienia"
+
+#: inc/PayPo_Gateway.php:150
+msgid "No"
+msgstr "Nie"
+
+#: inc/PayPo_Gateway.php:120
+msgid "Payment gateway title"
+msgstr "Wyświetlana nazwa płatności dla klientów"
+
+#: inc/PayPo_Gateway.php:48
+msgid "PayPo - deferred payment"
+msgstr "PayPo - płatność odroczona"
+
+#: inc/PayPo_Gateway.php:121
+msgid "PayPo | Buy now, pay in a month"
+msgstr "PayPo | Kup teraz, zapłać za 30 dni"
+
+#: inc/PayPo_Gateway.php:384
+msgid "PayPo: Completed transaction cannot be cancel"
+msgstr "PayPo: Transakcja Zakończona nie może zostać Anulowana"
+
+#: inc/PayPo_Notification.php:138
+msgid "PayPo: Payment is accepted"
+msgstr "PayPo: Płatność Zaakceptowana"
+
+#: inc/PayPo_Gateway.php:293 inc/PayPo_Notification.php:147
+#: inc/PayPo_Notification.php:150
+msgid "PayPo: Payment is completed"
+msgstr "PayPo: Płatność Zrealizowana"
+
+#: inc/PayPo_Gateway.php:262 inc/PayPo_Notification.php:156
+msgid "PayPo: Payment rejected"
+msgstr "PayPo: Płatność Odrzucona"
+
+#: inc/PayPo_Gateway.php:343
+msgid "PayPo: The amount has been refunded: "
+msgstr "PayPo: został wykonany Zwrot Częściowy w kwocie: "
+
+#: inc/PayPo_Gateway.php:336
+msgid "PayPo: The order has been fully returned"
+msgstr "PayPo: Został wykonany pełny Zwrot Towaru"
+
+#: inc/PayPo_Gateway.php:378
+msgid "PayPo: The transaction has been canceled"
+msgstr "PayPo: Transakcja została Anulowana"
+
+#: inc/PayPo_Gateway.php:380
+msgid "PayPo: There was an error preventing the order from being cancelled"
+msgstr "PayPo: Wystąpił błąd uniemożliwiający Anulowanie zamówienia"
+
+#: inc/PayPo_Gateway.php:295 inc/PayPo_Notification.php:134
+msgid "PayPo: There was an error preventing the order from being completed"
+msgstr "PayPo: Wystąpił błąd uniemożliwiający Realizację transakcji"
+
+#: inc/PayPo_Notification.php:162
+msgid "PayPo: Transaction has been cancel"
+msgstr "PayPo: Transakcja została anulowana"
+
+#: inc/PayPo_Gateway.php:147
+msgid "Remeber to provide Merchant ID and Merchant Secret for sandbox service"
+msgstr ""
+"Pamiętaj, aby wprowadzić prawidłowy Identyfikator oraz Secret dla trybu "
+"testowego"
+
+#: inc/PayPo_Connect.php:42
+msgid "Resource not authorized. Please contact the store administrator"
+msgstr "Zasób nie jest autoryzowany. Skontaktuj się z administratorem sklepu"
+
+#: inc/PayPo_Gateway.php:159
+msgid "Select how You want to complete PayPo transaction:."
+msgstr "Wybierz w jaki sposób, chcesz zatwierdzić płatność w PayPo:"
+
+#: inc/PayPo_Connect.php:45
+msgid "Service temporarily unavailable. Please try again later"
+msgstr "Usługa chwilowo niedostępna. Spróbuj ponownie później"
+
+#: inc/PayPo_Gateway.php:134
+msgid "Set merchant id provided by PayPo."
+msgstr "Wklej Identyfikator, znajdziesz go w panelu PayPo."
+
+#: inc/PayPo_Gateway.php:139
+msgid "Set merchant secret provided by PayPo."
+msgstr "Wklej Secret, znajdziesz go w panelu PayPo."
+
+#: inc/PayPo_Gateway.php:157
+msgid "Set payment complete status"
+msgstr "Zatwierdź status płatności"
+
+#: inc/PayPo_Gateway.php:184
+msgid ""
+"Set the maximum value of orders handled by PayPo. Choose when PayPo should "
+"be displayed on checkout page."
+msgstr "Wpisz maksymalną kwotę zamówień obsługiwanych przez PayPo."
+
+#: inc/PayPo_Gateway.php:174
+#| msgid ""
+#| "Set the minimum order amount for payment. Our minimum of serviced "
+#| "transactions is 10 PLN. Choose when PayPo should be displayed on checkout "
+#| "page."
+msgid ""
+"Set the minimum value of orders handled by PayPo. Our minimum of serviced "
+"transactions is 10 PLN. Choose when PayPo should be displayed on checkout "
+"page."
+msgstr ""
+"Wpisz minimalną kwotę zamówień obsługiwanych przez PayPo. Najmniejsza "
+"obsługiwana przez nas wartość zamówienia to 10 PLN."
+
+#: inc/Plugin.php:96
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: inc/PayPo_Gateway.php:118
+msgid "Title"
+msgstr "Tytuł"
+
+#: inc/PayPo_Gateway.php:223
+msgid ""
+"Unfortunately, we encountered an error during the payment process. Please "
+"contact the site administrator"
+msgstr ""
+"Niestety napotkaliśmy błąd podczas procesu płatności. Proszę skontaktować "
+"się z administratorem serwisu"
+
+#: inc/PayPo_Gateway.php:197
+msgid ""
+"Url for custom banner visible over description. Leave blank for default."
+msgstr ""
+"Url dla własnego banera widocznego ponad opisem płatności. Pozostaw pole "
+"puste, aby wyświetlić naszą grafikę."
+
+#: inc/PayPo_Connect.php:43
+msgid "URL or resource not found. Please contact the store administrator"
+msgstr ""
+"Nie znaleziono adresu URL lub zasobu. Skontaktuj się z administratorem sklepu"
+
+#. Name of the plugin
+msgid "WooCommerce PayPo Payment Gateway"
+msgstr "Płatność odroczona PayPo"
+
+#: inc/PayPo_Gateway.php:151
+msgid "Yes"
+msgstr "Tak"
+
+#: inc/PayPo_Gateway.php:146
+msgid "You can enable test mode for sandbox integration."
+msgstr ""
+"Możesz włączyć tryb testowy, aby przetestować działanie integracji z Twoim "
+"sklepem."

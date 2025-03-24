@@ -1,0 +1,34 @@
+{
+    "name": "tpay/woocommerce",
+    "description": "Woocommerce payment module",
+    "license": "MIT",
+    "type": "woocommerce-module",
+    "authors": [
+        {
+            "name": "tpay.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ext-json": "*",
+        "tpay-com/tpay-openapi-php": "^1.7"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Tpay\\": "includes/"
+        },
+        "classmap": [
+            "tpay.php",
+            "vendor_prefixed/"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+            "php": "7.1"
+        },
+        "preferred-install": "dist",
+        "prepend-autoloader": false
+    }
+}
